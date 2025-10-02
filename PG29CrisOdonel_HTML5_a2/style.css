@@ -1,0 +1,22 @@
+/* Element Selectors */
+body {
+    font-family: "Times New Roman", Times, serif;
+    background: ;
+}
+
+/* Class Selectors */
+.Header-Flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #808080;
+    text-align: center;
+    height: 60px;
+}
+
+.Header-Flex h1{
+    color:white;
+    font-size: 2em;
+}
+
+/* IDs Selectors */
