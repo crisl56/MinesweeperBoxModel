@@ -10,7 +10,7 @@
 
 <body>
     <header class="Header-Flex">
-        <hi>MineSweeper Website</hi>
+        <h1>MineSweeper Website</h1>
 
         <nav>
             <ul>
@@ -22,48 +22,59 @@
         </nav>
     </header>
 
-    <!--Sidebar-->
-    <aside id="Sidebar">
+    <div class="FlexDiv">
+        <!--Sidebar-->
+        <aside id="Sidebar">
 
-        <img src="Images/" alt="SiteLogo here" />
+            <img src="Images/" alt="SiteLogo here" />
 
-        <ul>
-            <!--Could have it different colours like the tiles when near certain amount of mines pt2-->
-            <li><a href="main.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </aside>
-
-    <main>
-
-        <!--Difficulties-->
-
-        <section>
-            <h1>Play a game</h1>
             <ul>
-                <li><a href="easy.html">Easy</a></li>
-                <li><a href="medium.html">Medium</a></li>
-                <li><a href="hard.html">Hard</a></li>
+                <!--Could have it different colours like the tiles when near certain amount of mines pt2-->
+                <li><a href="main.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
+        </aside>
 
-        </section>
+        <main>
 
-        <section>
-            <h1>Rules</h1>
+            <!--Difficulties-->
 
-            <p>
-                In this game, the board is divided into cells where mines can randomly appear.
-                In order to win, you have to open all the cells while avoiding all the mines that appear.
-                The way you can know that there if there is a mine near is determined by the number that 
-                shows up on the tile. EX: if 1 shows up on the tile then there is 1 mine next to the tile.
-                Tiles count as being next to each other if they're one tile away from each other. (includes diagonals)
+            <section class="Difficulties">
+                <h1>Play a game</h1>
+                
+                <!--Replace these with images eventually-->
+                <ul>
+                    <li><a href="easy.html">Easy</a></li>
+                    <li><a href="medium.html">Medium</a></li>
+                    <li><a href="hard.html">Hard</a></li>
+                </ul>
 
-                Enjoy.
-            </p>
-        </section>
+            </section>
 
-    </main>
+            <section class="Rules">
+                <h1>Rules</h1>
+
+                <p>
+                    In this game, the board is divided into cells where mines can randomly appear.
+                    In order to win, you have to open all the cells while avoiding all the mines that appear.
+                    The way you can know that there if there is a mine near is determined by the number that
+                    shows up on the tile.
+
+                    <br>
+                    <br>
+                    EX: if 1 shows up on the tile then there is 1 mine next to the tile.
+                    Tiles count as being next to each other if they're one tile away from each other. (includes diagonals)
+
+                    <br>
+                    <br>
+                    Enjoy.
+                </p>
+            </section>
+
+        </main>
+
+    </div>
 
     <footer>
         <p>&copy;  2025 PG29 BIO WEBPAGE. All Rights Reserved</p>
